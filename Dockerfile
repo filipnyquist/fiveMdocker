@@ -4,7 +4,7 @@ MAINTAINER Fillerin0 <filip@lbry.io>
 
 RUN apt update && \
     apt upgrade -y && \
-    apt install -y curl wget git && \
+    apt install -y curl wget xz-utils git && \
     useradd -d /home/container -m container
 
 USER container
